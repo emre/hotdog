@@ -1,0 +1,12 @@
+{
+  "nodes": ["https://api.steemit.com"],
+  "mongo_uri": "localhost",
+  "mongo_db_name": "custom_json",
+  "blacklisted_posting_auths": ["emreb2eyler"],
+  "custom_json_ids": ["dlink", "dnews"],
+  "custom_json_id_collection_map": {
+    "dlink": "dlink",
+    "dnews": "dnews",
+    "follow": "follow"
+  }
+}
